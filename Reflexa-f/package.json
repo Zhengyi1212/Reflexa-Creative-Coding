@@ -1,0 +1,48 @@
+{
+  "name": "vue-p5-ai-collaborator",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "monaco-editor-vue3": "^0.1.10",
+    "p5": "^1.9.4",
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "vue-eslint-parser": "^10.2.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2024": true
+    },
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+      "parser": "espree",
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
